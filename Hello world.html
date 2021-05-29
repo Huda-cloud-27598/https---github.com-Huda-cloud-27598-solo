@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>clothesnstuff</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <h1> <i> ✨ welcome to clothesn'stuff ✨ </i></h1>
+       <!-- <h3> about us - contact us </h3> -->
+        <h2>  <div id="demobox">
+            sustainable • cool • handmade
+            </div> </h2>
+<section>
+  <div class= "container"> <div id="gif"> <img src="clothes.gif" class="clothesgif" alt="oops"> 
+         
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/mahre/HTML%20Course/Aboutmeclothes.html">tops</a></li>
+            <li><a href="C:\Users\mahre\HTML Course\bottoms.html">bottoms</a></li>
+            <li><a href="C:\Users\mahre\HTML Course\shoes.html">shoes</a></li>
+        </ul>
+    </nav> 
+</div>
+</section>
+    </header>
+
+    <body>
+       <p>
+           <!-- if you have time make the arrows move -->
+           <i> ↓ shop our pinterest & instagram ↓ </i> 
+        </p>
+
+     <!--image slider-->
+
+     <div class="slider">
+        <div class="slides">
+            <!--nav buttons-->
+            <input type="radio" name="radio-btn" id="radio1"> 
+            <input type="radio" name="radio-btn" id="radio2"> 
+            <!--slide images-->
+            <div class="slide first">
+                <img src="pinpicslideshow.png" alt="pinpicslideshow">
+            </div>
+            <div class="slide">
+                <img src="instaslideshow.png" alt="instaslideshow">
+            </div>
+              <!-- slide images end-->
+             
+              <!-- Auto nav-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"> </div>
+              <div class="auto-btn2"> </div>
+            </div>
+            <!--Auto nav ends-->
+        </div>
+        <!--manual navigation-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"> </label>
+            <label for="radio2" class="manual-btn"> </label>
+        </div>
+        <!--manual navigation ends-->
+     </div>
+     <script type="text/javascript">
+     var counter = 1;
+     setInterval(function(){
+         document.getElementById('radio' + counter).checked = true;
+         counter++;
+         if(counter > 4){
+             counter = 1;
+         }
+     }, 5000);
+     </script>
+    <!--img slider ends-->
+    </body>
+
+    <style>
+        footer {
+          text-align: center;
+          padding: 3px;
+          background-color:#F9CDAD;
+          color: white;
+          display: block;
+          font-size: 1em;
+        }
+        </style>
+        <footer>
+          <p> Developer: Huda Hussaini - Mahreen248@gmail.com
+          </p>
+        </footer>
+</html>
+
