@@ -1,0 +1,27 @@
+h1 {
+    background-color: #FE4365;
+    color: #F9CDAD;
+    font-size: 3em;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-radius: 2em;
+}
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img {
+    transition: 1s;
+    padding: 10px;
+    width: 200px;
+    border-radius: 2em;
+}
+.gallery img:hover{
+    filter:grayscale(100%);
+    transform: scale(1,1);
+
+
+}
+body{
+    background-color: #83AF9B;
+}
